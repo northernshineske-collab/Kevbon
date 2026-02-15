@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northern Shine – Professionell bilrekond i Yttervik</title>
+
+<style>
+:root{
+  --bg:#0a0f1f;
+  --bg2:#111a33;
+  --accent:#3b82f6;
+  --accent2:#06b6d4;
+  --accent3:#6366f1;
+  --text:#ffffff;
+  --muted:#9ca3af;
+  --card:rgba(255,255,255,0.05);
+  --border:rgba(255,255,255,0.08);
+}
+
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto;
+  color:var(--text);
+  background:
+    linear-gradient(135deg,var(--bg),var(--bg2));
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+}
+
+header{
+  background:rgba(0,0,0,0.3);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--border);
+}
+
+.logo{
+  font-weight:700;
+  font-size:22px;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.hero{
+  padding:80px 20px;
+}
+
+.hero h1{
+  font-size:48px;
+  margin:0 0 10px;
+  background:linear-gradient(90deg,var(--accent),var(--accent2),var(--accent3));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.hero p{
+  color:var(--muted);
+  font-size:18px;
+}
+
+.buttons{
+  margin-top:20px;
+}
+
+.btn{
+  display:inline-block;
+  padding:12px 18px;
+  margin:5px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
+  color:white;
+}
+
+.btn.secondary{
+  background:rgba(255,255,255,0.08);
+}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  padding:20px;
+  border-radius:14px;
+  margin:15px 0;
+}
+
+.prices{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:15px;
+}
+
+@media(max-width:700px){
+  .hero h1{font-size:34px}
+  .prices{grid-template-columns:1fr}
+}
+
+.price-row{
+  display:flex;
+  justify-content:space-between;
+  padding:8px 0;
+  border-bottom:1px solid var(--border);
+}
+
+footer{
+  margin-top:40px;
+  padding:20px;
+  border-top:1px solid var(--border);
+  color:var(--muted);
+}
+</style>
+
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="logo">Northern Shine</div>
+  </div>
+</header>
+
+<section class="hero container">
+
+<h1>Professionell bilrekond i Yttervik</h1>
+
+<p>
+Specialiserad på invändig rengöring och djuprekond med våtdammsugning
+och luktborttagning. Vi återställer en ren och fräsch interiör med
+premiumresultat.
+</p>
+
+<div class="buttons">
+
+<a class="btn" href="https://www.facebook.com/share/185nKVNmbZ/?mibextid=wwXIfr" target="_blank">
+Kontakta via Facebook
+</a>
+
+<a class="btn secondary" href="https://www.instagram.com/northernshines?igsh=Znc4MmV2eHVhZnl5&utm_source=qr" target="_blank">
+Instagram
+</a>
+
+</div>
+
+</section>
+
+<section class="container">
+
+<div class="card">
+<h2>Enklare invändig rengöring</h2>
+
+<div class="price-row">
+<span>Liten bil</span>
+<span>600 kr</span>
+</div>
+
+<div class="price-row">
+<span>Mellanbil / kombi</span>
+<span>700 kr</span>
+</div>
+
+<div class="price-row">
+<span>Stor bil / SUV</span>
+<span>800 kr</span>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Djup invändig rekond</h2>
+
+<div class="price-row">
+<span>Liten bil</span>
+<span>1 400 kr</span>
+</div>
+
+<div class="price-row">
+<span>Mellanbil / kombi</span>
+<span>1 600 kr</span>
+</div>
+
+<div class="price-row">
+<span>Stor bil / SUV</span>
+<span>1 800 kr</span>
+</div>
+
+<div class="price-row">
+<span>7-sits / extra stor</span>
+<span>från 2 000 kr</span>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Detta ingår</h2>
+
+<ul>
+<li>Dammsugning av hela interiören</li>
+<li>Våtdammsugning av säten och mattor</li>
+<li>Borttagning av fläckar och smuts</li>
+<li>Luktborttagning</li>
+<li>Rengöring av paneler, dörrar och detaljer</li>
+<li>Premium finish</li>
+</ul>
+
+</div>
+
+</section>
+
+<footer class="container">
+© 2026 Northern Shine • Yttervik
+</footer>
+
+</body>
+</html>
